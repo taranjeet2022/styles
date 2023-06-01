@@ -1,0 +1,31 @@
+{
+  "name": "krypton/styles",
+  "description": "A style class in PHP",
+  "keywords": [
+    "ui-style",
+    "style",
+    "css"
+  ],
+  "type": "library",
+  "homepage": "http://github.com/taranjeet2022/style/",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Taranjeet",
+      "email": "taranjeet2022@outlook.com",
+      "homepage": "https://github.com/taranjeet2022",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/taranjeet2022/style/issues"
+  },
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Krypton\\Styles\\": "src/"
+    }
+  }
+}
